@@ -1,0 +1,27 @@
+Initial requirements :
+1. Windows OS
+2. Chrome browser
+3. Python (version 3.5+)
+
+
+Steps to Run : 
+1. Activate the virtual environment by using command :
+    venv\Scripts\Activate
+2. Run the program by using command :
+    python app.py
+
+Incase Virtual environment creates some issue, delete the venv folder and follow these steps :
+1. Create a Virtual environment by using command :
+    virtualenv venv
+2. Activate the virtual environment by using command :
+    venv\Scripts\Activate
+3. Install requirements.txt file by using command :
+    pip install -r requirements.txt
+4. Run the program by using command :
+    python app.py
+
+
+Additional notes :
+1. Please note this code uses Selenium to scrape the data. This might open the Chrome browser automatically and run through it. Please don't panic.
+2. Selenium is required because this website uses lot of Javascipt, hence it cannot be scraped simply using BeautifulSoup.
+3. The scraped data contains some special characters. This behaviour is expected only.
